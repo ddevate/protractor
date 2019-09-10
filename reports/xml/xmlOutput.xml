@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="1" time="0.02">
+ <testsuite name="Protractor Demo Test" timestamp="2019-09-09T12:09:27" hostname="localhost" time="0.02" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Protractor Demo Test" name="should be able to validate shadow DOM" time="0.013">
+   <failure type="exception" message="Failed: Cannot read property &apos;bind&apos; of undefined"><![CDATA[TypeError: Cannot read property 'bind' of undefined
+    at ProtractorExpectedConditions.presenceOf (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:341:40)
+    at UserContext.<anonymous> (C:\Users\ddevate\Documents\Automation Frameworks\Code\Protractor\OnlyProtractor\step-definitions\shadow-test.js:15:25)
+    at C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at promise (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\ddevate\Documents\Automation Frameworks\Code\Protractor\OnlyProtractor\step-definitions\shadow-test.js:14:5)
+    at addSpecsToSuite (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\ddevate\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\ddevate\Documents\Automation Frameworks\Code\Protractor\OnlyProtractor\step-definitions\shadow-test.js:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
